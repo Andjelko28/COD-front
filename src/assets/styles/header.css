@@ -1,0 +1,28 @@
+.logo{
+    background-image: url('../img/logo.png');
+    width: 15rem;
+    height: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.navbar, .nav{
+    display: flex;
+    background-color: rgba(148, 147, 148, 0.8);
+    backdrop-filter: blur(0.1rem);
+}
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 1.7em;
+}
+
+.nav1 .nav-list{
+    margin-left: 20rem;
+}
