@@ -1,17 +1,22 @@
 .logo {
     padding: 10px;
     background-image: url('../img/logo.png');
-    width: 15rem;
+    width: 11rem;
     height: 5rem;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+    margin: auto;
 }
 
 .header {
     display: flex;
-    position: absolute;
+    position: fixed;
     justify-content: space-evenly;
+    background-color: rgba(120, 120, 120, 0.5);
+    backdrop-filter: blur(1px);
+    left: 50%;
+    transform: translate(-50%)
 }
 
 .navbar {
@@ -19,4 +24,14 @@
     list-style-type: none;
     gap: 50px;
     font-size: 2em;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.navbar-div{
+    padding: 10px;
+}
+
+.navbar-items{
+    cursor: pointer;
 }
