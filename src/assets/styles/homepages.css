@@ -3,17 +3,6 @@ html,body{
     padding: 0;
 }
 
-app-header{
-    position: fixed;
-    max-width: 80%;
-    left: 5%;
-}
-
-app-footer{
-    position: fixed;
-    width: 100%;
-}
-
 .back-img{
     background-image: url('../img/mw2-back.jpg');
     background-position: center;
