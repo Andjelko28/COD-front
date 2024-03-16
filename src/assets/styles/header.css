@@ -2,7 +2,7 @@
     padding: 10px;
     background-image: url('../img/logo.png');
     width: 11rem;
-    height: 5rem;
+    height: 3rem;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -23,7 +23,7 @@
     display: flex;
     list-style-type: none;
     gap: 50px;
-    font-size: 2em;
+    font-size: 1.2em;
     white-space: nowrap;
     padding: 0;
 }
@@ -34,4 +34,22 @@
 
 .navbar-items{
     cursor: pointer;
+    padding: 2px;
+}
+
+.navbar-items:hover{
+color: white;
+}
+
+.navbar :nth-child(6){
+    background-color: red;
+    color: white;
+}
+
+.navbar :nth-child(6):hover{
+    background-color: red;
+    color: black;
+    outline: 1px solid red;
+    outline-offset: 5px;
+    transition: 0.5s ease-out;
 }
