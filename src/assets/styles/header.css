@@ -2,11 +2,20 @@
     padding: 10px;
     background-image: url('../img/logo.png');
     width: 11rem;
-    height: 3rem;
+    height: 0.1rem;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     margin: auto;
+}
+
+.logo:hover {
+    height: 1rem;
+    transition:0.5s ease-in-out;
+}
+
+.logo:not(:hover){
+    transition:0.5s ;
 }
 
 .header {
@@ -28,25 +37,30 @@
     padding: 0;
 }
 
-.navbar-div{
+.navbar-div {
+    display: flex;
+    align-items: center;
+    max-height: 2rem;
     padding: 10px;
 }
 
-.navbar-items{
+.navbar-items {
     cursor: pointer;
     padding: 2px;
 }
 
-.navbar-items:hover{
-color: white;
+.navbar-items:hover {
+    color: white;
+    background-color: rgba(120, 120, 120, 0.9);
+    transition: 0.4s ease-out;
 }
 
-.navbar :nth-child(6){
+.navbar :nth-child(6) {
     background-color: red;
     color: white;
 }
 
-.navbar :nth-child(6):hover{
+.navbar :nth-child(6):hover {
     background-color: red;
     color: black;
     outline: 1px solid red;
