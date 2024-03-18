@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { PagesRoutingModule } from './pages-routing.module';
 import { HelpersModule } from '../helpers/helpers.module';
 import { HomeComponent } from './home/home.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { HomeComponent } from './home/home.component';
   imports: [
     CommonModule,
     PagesRoutingModule,
-    HelpersModule
+    HelpersModule,
+    ReactiveFormsModule
   ]
 })
 export class PagesModule { }

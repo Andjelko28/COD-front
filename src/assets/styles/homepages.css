@@ -23,3 +23,7 @@ html,body{
     max-height: 35rem;
     margin: 1rem;
 }
+
+.bigger-logo{
+    background-image: url('../img/bigger-logo.png');
+}

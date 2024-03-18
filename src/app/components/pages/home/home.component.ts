@@ -8,7 +8,10 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class HomeComponent {
   safeSrc: SafeResourceUrl;
-  constructor(private sanitizer: DomSanitizer){
-    this.safeSrc = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/v=bH1lHCirCGI');
+  constructor(private sanitizer: DomSanitizer) { }
+
+  showTrailer() {
+    this.safeSrc = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/bH1lHCirCGI');
   }
+
 }
