@@ -27,3 +27,50 @@ html,body{
 .bigger-logo{
     background-image: url('../img/bigger-logo.png');
 }
+
+.show-trailer{
+    display: flex;
+    width: 20rem;
+    max-width: 20rem;
+    height: 180px;
+    background-image: url('../img/trailer.jpg');  
+    background-repeat: no-repeat;
+}
+
+.bigger-logo{
+    background-image: url('../img/bigger-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20rem;
+    max-width: 20rem;
+    height: 10rem;
+}
+
+iframe{
+    display: none;
+}
+
+.home-page-layout{
+    margin: auto;
+    max-width: 20rem;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.home-page-layout p{
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.home-page-layout button{
+    background-image: url('../img/play.png');
+    width: 3rem;
+    height: 3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
