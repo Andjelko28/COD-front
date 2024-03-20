@@ -73,4 +73,6 @@ iframe{
     background-position: center;
     background-repeat: no-repeat;
     margin: auto;
+    background-color: rgba(8, 234, 33, 0.5);
+    cursor: pointer;
 }
