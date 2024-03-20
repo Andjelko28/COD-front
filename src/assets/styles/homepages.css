@@ -11,11 +11,16 @@ html,body{
     height: 100vh;
 }
 
+
+
 .char-show{
-    display: flex;
+    display: grid;
     position: relative;
-    top: 5rem;
-    color: white;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 5rem 1fr;
+    grid-template-areas: 
+    'h1 h1 h1'
+    'task-items-1 task-items-2 task-items-3';
 }
 
 .char-imgs{
