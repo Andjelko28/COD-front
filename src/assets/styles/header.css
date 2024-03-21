@@ -20,7 +20,7 @@
 
 .header {
     display: flex;
-    position: fixed;
+    position: absolute;
     justify-content: space-evenly;
     background-color: rgba(120, 120, 120, 0.5);
     backdrop-filter: blur(1px);

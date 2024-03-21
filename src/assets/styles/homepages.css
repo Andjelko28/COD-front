@@ -15,6 +15,9 @@ body {
 .char-show {
     display: grid;
     position: relative;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 5rem 1fr;
     grid-template-areas:
@@ -24,12 +27,19 @@ body {
 
 .char-show h1 {
     grid-column: 1 / -1;
+    text-align: center;
+}
+
+.char-show h3{
+    position: relative;
+    top: 95%;
+    text-align: start;
 }
 
 .char-imgs {
+    width: 30rem;
     max-width: 20rem;
-    max-height: 35rem;
-    margin: 1rem;
+    max-height: 40rem;
 }
 
 .bigger-logo {
