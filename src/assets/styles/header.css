@@ -22,7 +22,7 @@
     display: flex;
     position: absolute;
     justify-content: space-evenly;
-    background-color: rgba(120, 120, 120, 0.5);
+    background-color: rgba(120, 120, 120, 0.2);
     backdrop-filter: blur(1px);
     left: 50%;
     transform: translate(-50%)

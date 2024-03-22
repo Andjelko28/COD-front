@@ -23,6 +23,12 @@ body {
     grid-template-areas:
         'h1'
         'task-items-1 task-items-2 task-items-3';
+    color: white;
+    width: 50rem;
+    max-width: 50rem;
+    background-color: rgba(120, 120, 120, 0.2);
+    border: 1px solid rgba(120, 120, 120, 0.2);
+    margin: auto;
 }
 
 .char-show h1 {
@@ -30,15 +36,16 @@ body {
     text-align: center;
 }
 
-.char-show h3{
+.char-show h3 {
     position: relative;
-    top: 95%;
-    text-align: start;
+    top: 80%;
+    border: 1px solid rgba(120, 120, 120, 0.5);
+    font-size: 1.5rem;
 }
 
 .char-imgs {
-    width: 30rem;
-    max-width: 20rem;
+    width: 15rem;
+    max-width: 15rem;
     max-height: 40rem;
 }
 
@@ -133,4 +140,9 @@ iframe {
     background-color: #08ea2180;
     cursor: pointer;
     z-index: 1001;
+}
+
+.second-section {
+    background-image: url('../img/topo.jpg');
+    padding: 1rem;
 }
