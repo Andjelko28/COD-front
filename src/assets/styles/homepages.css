@@ -21,7 +21,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 5rem 1fr;
     grid-template-areas:
-        'h1'
+        'h1 button'
         'task-items-1 task-items-2 task-items-3';
     color: white;
     width: 50rem;
@@ -34,6 +34,15 @@ body {
 .char-show h1 {
     grid-column: 1 / -1;
     text-align: center;
+}
+
+.char-show button {
+    grid-column: 1 / -1;
+    width: 300px;
+    max-width: 300px;
+    margin: auto;
+    font-size: 1.4em;
+    cursor: pointer;
 }
 
 .char-show h3 {
