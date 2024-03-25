@@ -36,5 +36,11 @@
     </div>
 </div>
 <div class="third-section">
-    
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <img [src]="slide" *ngFor="let slide of slides">
+        </div>
+        <button (click)="getPrev()">Prev</button>
+        <button (click)="getNext()">Next</button>
+    </div>
 </div>
