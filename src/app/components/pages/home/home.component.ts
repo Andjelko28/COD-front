@@ -1,6 +1,6 @@
 import { Component, ElementRef, Renderer2 } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import {CarouselModule} from 'primeng/carousel';
+import { CarouselModule } from 'primeng/carousel';
 
 
 @Component({
